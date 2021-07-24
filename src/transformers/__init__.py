@@ -555,6 +555,7 @@ if is_torch_available():
             "BERT_PRETRAINED_MODEL_ARCHIVE_LIST",
             "BertForMaskedLM",
             "BertForMultipleChoice",
+            "BertForMultipleChoiceMarginLoss",
             "BertForNextSentencePrediction",
             "BertForPreTraining",
             "BertForQuestionAnswering",
