@@ -30,6 +30,7 @@ from torch.nn import BCEWithLogitsLoss, CrossEntropyLoss, MSELoss, CrossEntropyL
 
 from ...activations import ACT2FN
 from ...file_utils import (
+    cached_path,
     ModelOutput,
     add_code_sample_docstrings,
     add_start_docstrings,
@@ -54,7 +55,6 @@ from ...modeling_utils import (
     prune_linear_layer,
 )
 from ...utils import logging
-from .file_utils import cached_path
 from .configuration_bert import BertConfig
 
 
