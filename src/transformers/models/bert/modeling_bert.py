@@ -54,6 +54,7 @@ from ...modeling_utils import (
     prune_linear_layer,
 )
 from ...utils import logging
+from .file_utils import cached_path
 from .configuration_bert import BertConfig
 
 
